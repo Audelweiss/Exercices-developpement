@@ -1,0 +1,27 @@
+Variables :
+    a NUM
+    b NUM
+    q  NUM
+    r  NUM
+    cpt NUM
+    
+DEBUT
+    cpt PREND LA VALEUR 0
+    SAISIR a
+    SAISIR b
+    SI a < b ALORS
+        q PREND LA VALEUR 0
+        r PREND LA VALEUR a
+    SINON
+        TANT QUE a >= b FAIRE
+            a PREND LA VALEUR a-b
+            cpt PREND LA VALEUR cpt+1
+        FIN TANT QUE
+        q PREND LA VALEUR cpt
+        r PREND LA VALEUR a
+    FIN SI
+    AFFICHER "Le quotient vaut : "
+    AFFICHER q
+    AFFICHER "Le reste vaut : "
+    AFFICHER r    
+FIN

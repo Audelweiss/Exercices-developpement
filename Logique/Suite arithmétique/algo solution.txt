@@ -1,0 +1,38 @@
+Variables :
+    departT NUM
+    departS NUM
+    prixT NUM
+    prixS NUM
+    capT NUM
+    capS NUM
+    nbCap NUM
+    cpt NUM
+    tmp NUM
+DEBUT
+    departT PREND LA VALEUR 60
+    departS PREND LA VALEUR 80
+    capT PREND LA VALEUR 0.4
+    capS PREND LA VALEUR 0.13
+    cpt PREND LA VALEUR 1
+    nbCap PREND LA VALEUR 30
+    TANT QUE prixT < prixS FAIRE
+        SI (cpt * nbCap) > 150 ALORS
+            prixT PREND LA VALEUR departT + (nbCap*capT)*(cpt-tmp)
+        SINON 
+            tmp PREND LA VALEUR cpt
+        FIN SI
+        prixS PREND LA VALEUR departS + (nbCap*capS)*cpt
+        cpt PREND LA VALEUR cpt + 1
+    FIN TANT QUE
+    AFFICHER "La Senseo devient plus rentable après "
+    AFFICHER cpt
+    AFFICHER "mois. Vous aurez dépensé "
+    AFFICHER prixS
+    AFFICHER "VS"
+    AFFICHER prixT
+    AFFICHER "avec la Tassimo"
+FIN
+
+-------------------------------------------------
+
+La variable tmp permet de prendre en compte le fait qu'on a 150 capsules qu'on va écouler en 5 mois. Le compteur équivalent au r dans la formule fausserait le calcul. On utilise donc le compteur mois les mois de consommation des 150 capsules afin d'avoir des données correctes.

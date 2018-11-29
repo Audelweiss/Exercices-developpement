@@ -1,0 +1,9 @@
+Variables :
+    tab TABLEAU
+DEBUT 
+    AJOUTER 0 A tab
+    POUR i PARTANT DE 1, TANT QUE la dernière valeur de tab < 100, PAR POSE DE 1 ALORS
+        AJOUTER (i + la dernière valeur de tab) A tab
+    FIN POUR
+    AFFICHER tab
+FIN
