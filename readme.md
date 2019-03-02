@@ -95,7 +95,7 @@ Certains exercices disposent d’un corrigé en pseudo-code. Cela permet de se b
 </thead>
 <tbody>
 <tr>
-<td><a href="https://github.com/Audelweiss/Exercices-developpement/tree/master/Convertisseur">Formulaires AJAX</a></td>
+<td><a href="https://github.com/Audelweiss/Exercices-developpement/tree/master/AJAX_FORM">Formulaires AJAX</a></td>
 <td>jQuery, AJAX, BDD</td>
 <td>corrigé en cours (JS, PHP, SQL)</td>
 </tr>
