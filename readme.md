@@ -1,4 +1,7 @@
+---
 
+
+---
 
 <h1 id="liste-dexercices">Liste d’exercices</h1>
 <p>Ces exercices permettent de travailler la logique de développement et s’exercer en JavaScript et PHP.<br>
@@ -43,7 +46,7 @@ Certains exercices disposent d’un corrigé en pseudo-code. Cela permet de se b
 <td>Pseudo-code, JS</td>
 </tr>
 </tbody>
-</table><h2 id="👦🏻-niveau-3---relation-au-dom">👦🏻 Niveau 3 - relation au DOM</h2>
+</table><h2 id="👦🏻-niveau-3---relation-au-dom">👦🏻 Niveau 3 - Relation au DOM</h2>
 
 <table>
 <thead>
@@ -60,7 +63,7 @@ Certains exercices disposent d’un corrigé en pseudo-code. Cela permet de se b
 <td>JS</td>
 </tr>
 </tbody>
-</table><h2 id="👩🏻‍🦱-niveau-4---exercice-360">👩🏻‍🦱 Niveau 4 - exercice 360</h2>
+</table><h2 id="👩🏻‍🦱-niveau-4---exercices-360">👩🏻‍🦱 Niveau 4 - Exercices 360</h2>
 
 <table>
 <thead>
