@@ -28,4 +28,4 @@ On souhaite acheter une machine à café. Plusieurs offres s'offrent à nous. Le
 
 Considérons que nous consommons 30 capsules/mois : déterminer à partir de combien de mois il est plus rentable d'acheter une Senseo au lieu d'une Tassimo, en prenant en compte le stock de capsules initial.
 
-![graph Tassimo Senseo.jpeg](https://github.com/Audelweiss/3wAcademy-public/blob/master/Logique/Suite%20arithm%C3%A9tique/graph%20Tassimo%20Senseo.jpeg?raw=true)
+![graph Tassimo Senseo.jpeg](https://github.com/Audelweiss/Exercices-developpement/blob/master/Suite%20arithm%C3%A9tique/graph%20Tassimo%20Senseo.jpeg)
