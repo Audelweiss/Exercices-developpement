@@ -1,7 +1,4 @@
----
 
-
----
 
 <h1 id="liste-dexercices">Liste d’exercices</h1>
 <p>Ces exercices permettent de travailler la logique de développement et s’exercer en JavaScript et PHP.<br>
