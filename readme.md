@@ -7,8 +7,23 @@
 <p>Ces exercices permettent de travailler la logique de développement et s’exercer en JavaScript et PHP.<br>
 Certains exercices disposent d’un corrigé en pseudo-code. Cela permet de se baser dessus pour faire la retranscription en code.</p>
 <h2 id="👶🏻-niveau-1---syntaxe">👶🏻 Niveau 1 - Syntaxe</h2>
-<p>À venir 👀</p>
-<h2 id="👧🏻-niveau-2---logique">👧🏻 Niveau 2 - Logique</h2>
+
+<table>
+<thead>
+<tr>
+<th>Intitulé</th>
+<th>Ce qu’on y travaille</th>
+<th>Langage corrigé</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Audelweiss/Exercices-developpement/tree/master/Match">Match</a></td>
+<td>Manipulation de nombres, condition</td>
+<td>JS</td>
+</tr>
+</tbody>
+</table><h2 id="👧🏻-niveau-2---logique">👧🏻 Niveau 2 - Logique</h2>
 <p>Certains de ces exercices permettent surtout de travailler la logique, essentielle au développement web 😉</p>
 
 <table>
