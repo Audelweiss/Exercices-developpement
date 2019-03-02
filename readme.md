@@ -22,6 +22,11 @@ Certains exercices disposent d’un corrigé en pseudo-code. Cela permet de se b
 <td>Manipulation de nombres, condition</td>
 <td>JS</td>
 </tr>
+<tr>
+<td><a href="https://github.com/Audelweiss/Exercices-developpement/tree/master/Salaire%20prime">Salaire prime</a></td>
+<td>Saisie utilisateur, condition et affichage</td>
+<td>JS</td>
+</tr>
 </tbody>
 </table><h2 id="👧🏻-niveau-2---logique">👧🏻 Niveau 2 - Logique</h2>
 <p>Certains de ces exercices permettent surtout de travailler la logique, essentielle au développement web 😉</p>
@@ -90,7 +95,7 @@ Certains exercices disposent d’un corrigé en pseudo-code. Cela permet de se b
 </thead>
 <tbody>
 <tr>
-<td><a href="https://github.com/Audelweiss/Exercices-developpement/tree/master/Convertisseur">Formulaires AJAX</a></td>
+<td><a href="https://github.com/Audelweiss/Exercices-developpement/tree/master/AJAX_FORM">Formulaires AJAX</a></td>
 <td>jQuery, AJAX, BDD</td>
 <td>corrigé en cours (JS, PHP, SQL)</td>
 </tr>
