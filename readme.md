@@ -105,4 +105,21 @@ Certains exercices disposent d’un corrigé en pseudo-code. Cela permet de se b
 <td>PHP, SQL</td>
 </tr>
 </tbody>
+</table><h2 id="🦄-autres">🦄 Autres</h2>
+
+<table>
+<thead>
+<tr>
+<th>Intitulé</th>
+<th>Ce qu’on y travaille</th>
+<th>Langage corrigé</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Audelweiss/Exercices-developpement/tree/master/Cornfood">Cornfood</a></td>
+<td>Intégration web responsive à partir d’une maquette, utilisation d’une font locale</td>
+<td>HTML, CSS, Bootstrap</td>
+</tr>
+</tbody>
 </table>
