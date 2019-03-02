@@ -63,7 +63,7 @@ Certains exercices disposent d’un corrigé en pseudo-code. Cela permet de se b
 <td>JS</td>
 </tr>
 </tbody>
-</table><h2 id="👩🏻‍🦱-niveau-4--">👩🏻‍🦱 Niveau 4 -</h2>
+</table><h2 id="👩🏻‍🦱-niveau-4---exercice-360">👩🏻‍🦱 Niveau 4 - exercice 360</h2>
 
 <table>
 <thead>
