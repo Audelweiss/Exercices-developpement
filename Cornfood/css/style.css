@@ -1,0 +1,125 @@
+/* Ajouter une police locale */
+@font-face {
+    font-family: 'Rockwell';
+    src: url('font/Rockwell.eot');
+    src: local('Rockwell'),
+        url('font/Rockwell.eot?#iefix') format('embedded-opentype'),
+        url('font/Rockwell.woff') format('woff'),
+        url('font/Rockwell.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    scroll-behavior: smooth; /*pour faire un smoothscrool sur les ancres*/
+}
+body {font-family: Roboto, Arial, Helvetica, sans-serif; font-size: 13px; color:#3C3C3C; overflow-x: hidden;}
+a {transition: all 0.3s ease;}
+.roboto {font-family: Roboto, Arial, Helvetica, sans-serif;}
+.rockwell, h2, h3 {font-family: Rockwell, 'Times New Roman', Times, serif;}
+.black {font-weight: 900;}
+.shadow {box-shadow: 0 3px 6px rgba(0,0,0,0.2) !important;}
+h2 {font-size: 35px;}
+h3 {font-size: 18px; color: #4B4975;}
+
+
+header#entete {
+    background-image: linear-gradient(to top right, rgba(234, 145, 145, 0.7), rgba(75, 73, 117, 0.7)), url(../img/photo.jpeg);
+    background-position: center center;
+    padding-top: 30px;
+    background-size: cover;
+}
+header#entete::after {content: ""; width:40px; height: 40px; transform: rotate(45deg); position: absolute; background: white;margin-top: -20px; left: 50%; margin-left: -20px;}
+#nav img {height: 60px;}
+#nav ul {margin-bottom: 0;}
+#nav ul li {margin-right:30px; text-transform: uppercase; color: white; font-size: 14px;}
+#nav ul li:last-of-type {margin-right:0px; }
+#titre {padding: 150px 20px 200px; text-align: center; color: white;}
+#titre h2 {font-size: 15px; margin: 20px 0 30px;}
+#titre a {color: #EA9191 !important; background: white; padding: 7px 25px; border-radius: 50px; font-size: 15px; }
+#titre a:hover {box-shadow: 3px 5px 10px rgba(0,0,0,0.2) !important;}
+
+#concept {padding: 150px 0 50px;}
+#concept h2 {color: #4B4975; line-height: 55px; padding-left: 20%; margin-top: -12px;}
+#concept h2::before {
+    content: "";
+    height: 200px;
+    width: 230px;
+    position: absolute;
+    z-index: -1;
+    top: -90px;
+    left: 15px;
+    background-image: url(../img/grain.png), linear-gradient(#E6B331, #E6B331);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+#concept article  {padding: 0 20px 20px 45px;}
+#concept article h3 {margin-bottom: 20px;}
+#concept article p {padding-left: 5px;}
+#concept article img {float: left; margin: -12px 15px 0 -45px; height: 35px;}
+
+
+#produits {border-radius: 40px; padding: 50px 0 30px; box-shadow: 0 1px 6px rgba(0,0,0,0.1);}
+#produits ul {text-align: center; margin-top: 40px;}
+#produits h2 {text-align: center; color: #EA9191;}
+#produits img {width: 50%; margin-bottom: 15px;}
+#produits span {font-size: 15px;}
+
+footer {padding: 80px 0 20px;margin-top:100px; background: linear-gradient(to top right, #96859E,20%, rgba(234, 145, 145, 1), #E6B331); color: white;}
+footer img {height:40px;}
+footer #email::before {content: ""; height: 40px; width: 1px; display: block; background: white; margin: 0 0 15px 25px;}
+footer #email::after {content: ""; height: 40px; width: 1px; display: block; background: white; margin: 15px 0 0 134px;}
+footer #sep {width: 40px; height: 1px; display: block; background: white; margin: 0 15px;}
+footer #adresse {text-align: center; margin-top: 15px; width: 60%}
+footer ul {margin-top: 55px; width: 60%}
+
+footer form *:not(.bouton) {width: 100%; margin-bottom: 15px; padding: 15px 20px; border: none; border-radius: 30px; background: rgba(255,255,255,0.35); color:white;}
+footer form *::placeholder {color:white;}
+footer form .bouton {background: #EA9191 !important; color: white; padding: 7px 25px; border-radius: 50px; font-size: 15px; border:none; margin-top: -35px;}
+
+footer .footer::before {content: ""; width: 50%; height: 1px; background: white; display: block; margin: 50px 0 30px;}
+
+/* STYLE TABLETTE */
+@media screen and (min-width:768px) and (max-width: 991px){
+    #concept h2::before {height: 300px; left: 45px; width: 160px;}
+    footer #adresse {width: 100%}
+    footer ul {width: 100%}
+
+}
+
+/* STYLE MOBILE */
+@media screen and (max-width:767px){
+    #concept h2::before {left: 45px;}
+    #concept h2 {margin-bottom: 90px;}
+    #concept article {padding: 0 20px 20px 85px;}
+    #produits {width: 90%; margin: auto auto;}
+    #produits li:nth-of-type(2) {margin: 30px 0;}
+    header, footer {padding-left: 20px; padding-right: 20px;}
+}
+
+
+/* MENU MOBILE */
+.bt-menu-trigger {display: none;}
+@media screen and (max-width:767px){
+    nav#bt-menu ul {display: none; position:fixed; background: rgba(234, 145, 145,0.7); width: 100vw; z-index: 999; top:0; padding: 70px 0 30px; left:0;}
+    /* nav#bt-menu.bt-menu-open nav {display: flex !important;} */
+    nav#bt-menu ul li {margin-right: 0 !important; text-align: center; padding: 15px 0;}
+    *, *:after, *::before {-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+    .bt-menu-trigger {position:fixed; z-index: 9999;top:25px; right:15px; display:block; width:42px; height:50px; cursor:pointer;}
+    .bt-menu-trigger span {
+        position:absolute; top:50%; left:0; display:block; width:100%; height:4px; margin-top:-2px; background-color:#E6B331; font-size:0px;
+        -webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none; -webkit-transition:background-color 0.3s; transition:background-color 0.3s;
+    }
+    .bt-menu-open .bt-menu-trigger span {background-color:transparent;}
+    .bt-menu-trigger span:before,
+    .bt-menu-trigger span:after {position:absolute; left:0; width:100%; height:100%; background:#E6B331; content:''; -webkit-transition:-webkit-transform 0.3s; transition:transform 0.3s;}
+    .bt-menu-trigger span:before {-webkit-transform: translateY(-250%); transform: translateY(-250%);}
+    .bt-menu-trigger span:after {-webkit-transform:translateY(250%); transform:translateY(250%);}
+    .bt-menu-open .bt-menu-trigger span:before {-webkit-transform: translateY(0) rotate(45deg); transform: translateY(0) rotate(45deg);}
+    .bt-menu-open .bt-menu-trigger span:after {-webkit-transform: translateY(0) rotate(-45deg); transform: translateY(0) rotate(-45deg);}
+    .bt-menu {
+        position:fixed; top:70px; right:0; width:100%; height:0;
+        border-width:0px; border-style:solid; border-color:rgba(244,150,135,0.9);
+        transition:border-width 0.3s, background-color 0.3s, height 0s 0.3s; 
+    }
+}
