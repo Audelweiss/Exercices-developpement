@@ -80,6 +80,11 @@ Certains exercices disposent d’un corrigé en pseudo-code. Cela permet de se b
 <td>Logique algorithmique, boucle, manipulation des types de variables</td>
 <td>JS</td>
 </tr>
+<tr>
+<td><a href="https://github.com/Audelweiss/Exercices-developpement/tree/master/Palindrome">Palindrome</a></td>
+<td>Manipulation c’une chaine de caractères, boucle, condition</td>
+<td>JS</td>
+</tr>
 </tbody>
 </table><h2 id="👦🏻-niveau-3---relation-au-dom">👦🏻 Niveau 3 - Relation au DOM</h2>
 
