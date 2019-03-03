@@ -1,6 +1,6 @@
 # Sapin étoilé
 
-    Pour  un sapin à 10 étages :
+    Pour un sapin à 10 étages :
 
               *
              ***

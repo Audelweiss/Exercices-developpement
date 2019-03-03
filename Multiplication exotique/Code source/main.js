@@ -10,8 +10,8 @@ document.write("<h2>Pour le chiffre " + chiffre + " :</h2>")
 
 for (var i = 2; i <= chiffre; i++){
     result = chiffre * tmp + i;
-    tmp = Number(String(tmp) + String(i)); //pour le chiffre du milieu, on fait une concaténation entre le tmp et le nouveau chiffre additionné, puis on converti la string en nombre pour pouvoir faire le calcul
     document.write("<p>" + chiffre + " * " + tmp + " + " + i + " = " + result + "</p>");
+    tmp = Number(String(tmp) + String(i)); //pour le chiffre du milieu, on fait une concaténation entre le tmp et le nouveau chiffre additionné, puis on converti la string en nombre pour pouvoir faire le calcul
 }
 
 // SENS 2
