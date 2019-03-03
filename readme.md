@@ -65,6 +65,16 @@ Certains exercices disposent d’un corrigé en pseudo-code. Cela permet de se b
 <td>Logique algorithmique, boucle, condition</td>
 <td>Pseudo-code, JS</td>
 </tr>
+<tr>
+<td><a href="https://github.com/Audelweiss/Exercices-developpement/tree/master/Sapin">Sapin</a></td>
+<td>Logique algorithmique, boucle</td>
+<td>JS</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Audelweiss/Exercices-developpement/tree/master/Multiplication%20exotique">Multiplication exotique</a></td>
+<td>Logique algorithmique, boucle, manipulation des types de variables</td>
+<td>JS</td>
+</tr>
 </tbody>
 </table><h2 id="👦🏻-niveau-3---relation-au-dom">👦🏻 Niveau 3 - Relation au DOM</h2>
 
