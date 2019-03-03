@@ -21,7 +21,7 @@ var tab = [
 
 // Boucle while = la moins adaptée ici
 document.write("<h2>Avec un compteur et un while</h2>");
-var cpt = 0;
+var cpt = 0; //le while n'intègre pas de compteur comme le for, il faut donc le gérer manuellement
 while (cpt < tab.length){
     document.write("Prénom : " + tab[cpt].prenom + " | Age : " + tab[cpt].age + " ans<br>");
     cpt++;
@@ -38,6 +38,8 @@ document.write("<h2>Avec un for...of</h2>");
 for(var item of tab){
     document.write("Prénom : " + item.prenom + " | Age : " + item.age + " ans<br>");
 }
+
+//la variable item contient la ligne du tableau de l'itération en cours.
 
 // Boucle foreach
 document.write("<h2>Avec un foreach</h2>");
