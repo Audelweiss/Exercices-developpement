@@ -82,7 +82,7 @@ Certains exercices disposent d’un corrigé en pseudo-code. Cela permet de se b
 </tr>
 <tr>
 <td><a href="https://github.com/Audelweiss/Exercices-developpement/tree/master/Palindrome">Palindrome</a></td>
-<td>Manipulation c’une chaine de caractères, boucle, condition</td>
+<td>Manipulation d’une chaine de caractères, boucle, condition</td>
 <td>JS</td>
 </tr>
 </tbody>
