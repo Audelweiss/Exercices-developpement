@@ -5,7 +5,7 @@ La première avec la dernière et on recentre petit à petit. */
 
 var saisie = prompt("Est-ce un palindrome ? \nSaississez un nombre ou un mot pour savoir.").split('');
 var bResult = true;
-for(var i = 0; i < Math.floor(saisie.length); i++){
+for(var i = 0; i < Math.floor(saisie.length / 2); i++){
     var index = saisie.length - (i+1);
     if(saisie[i] != saisie[index]){ 
         bResult = false;
