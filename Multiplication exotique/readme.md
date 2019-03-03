@@ -1,6 +1,6 @@
 # Multiplication exotique
 
-## Sens 1
+## Variation 1
 
     Pour le chiffre 9 :
 
@@ -17,7 +17,7 @@ On demande à l'utilisateur de saisir un chiffre (qui doit être un entier). Le 
 
 > Il faut ici faire bien attention au type des variables et les manipuler de façon à ce que les concaténations comme les calculs puissent se faire ! 😉
 
-## Sens 2
+## Variation 2
 
     1 * 1 = 1
     11 * 11 = 121
@@ -30,3 +30,16 @@ On demande à l'utilisateur de saisir un chiffre (qui doit être un entier). Le 
     111111111 * 111111111 = 12345678987654320
 
 Cette fois-ci, toujours avec le même entier, on commence par `1 * 1` pour terminer par une multiplication avec autant de 1 que le nombre que l'utilisateur a saisi.
+
+## Variation 3
+
+Une fois encore, on peut adapter le code pour afficher un style différent :
+
+    9 * 9 + 7 = 88
+    9 * 98 + 6 = 888
+    9 * 987 + 5 = 8888
+    9 * 9876 + 4 = 88888
+    9 * 98765 + 3 = 888888
+    9 * 987654 + 2 = 8888888
+    9 * 9876543 + 1 = 88888888
+    9 * 98765432 + 0 = 888888888
