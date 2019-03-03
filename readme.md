@@ -41,6 +41,11 @@ Certains exercices disposent d’un corrigé en pseudo-code. Cela permet de se b
 </thead>
 <tbody>
 <tr>
+<td><a href="https://github.com/Audelweiss/Exercices-developpement/tree/master/Boucles">Boucles</a></td>
+<td>Parcourir un tableau avec les différentes boucles JS</td>
+<td>JS</td>
+</tr>
+<tr>
 <td><a href="https://github.com/Audelweiss/Exercices-developpement/tree/master/Calculer-salaire">Calculer salaire</a></td>
 <td>Boucle, condition, calcul</td>
 <td>JS</td>
