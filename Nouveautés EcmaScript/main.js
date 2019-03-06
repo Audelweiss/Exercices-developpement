@@ -71,6 +71,13 @@ let fctObj = {
 }
 fctObj.test()
 
+
+fonction = () => {
+    console.log('Step 4.2 - Ceci est écrit dans une fonction fléchée')
+}
+
+fonction()
+
 //sans fonction fléchée, il aurait fallu bind
 // let fctObj2 = {
 //     test(){
