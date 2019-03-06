@@ -137,6 +137,11 @@ Certains exercices disposent d’un corrigé en pseudo-code. Cela permet de se b
 </thead>
 <tbody>
 <tr>
+<td><a href="https://github.com/Audelweiss/Exercices-developpement/tree/master/Nouveaut%C3%A9s%20EcmaScript">EcmaScript</a></td>
+<td>Les nouveautés JS introduites dans les nouvelles versions ES</td>
+<td>-</td>
+</tr>
+<tr>
 <td><a href="https://github.com/Audelweiss/Exercices-developpement/tree/master/Cornfood">Cornfood</a></td>
 <td>Intégration web responsive à partir d’une maquette, utilisation d’une font locale</td>
 <td>HTML, CSS, Bootstrap</td>
