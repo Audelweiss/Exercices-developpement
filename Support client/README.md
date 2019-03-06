@@ -28,7 +28,6 @@ Je m'appuie sur la bibliothèque [Materialize](https://materializecss.com/) pour
 
 Le code HTML et CSS est récupérable dans le dossier `code html de base`.
 
-> oui, je sais, ces interfaces ont quand même plus de gueule que celles de la 3wa 😂
 
 ## Etape 3 : ajouter une demande
 
